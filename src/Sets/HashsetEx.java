@@ -4,7 +4,7 @@ import java.util.Set;
 
 public class HashsetEx {
 	public static void main(String[] args) {
-
+		//it does not guarantee any specific order of the elements
 		Set<Integer>  set = new java.util.HashSet<>();
 
 		// Add elements to the HashsetEx
