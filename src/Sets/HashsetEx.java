@@ -10,6 +10,10 @@ public class HashsetEx {
 		// Add elements to the HashsetEx
 		set.add(1);
 		set.add(3);
+		set.add(5);
+		set.add(2);
+		set.add(99);
+		set.add(0);
 		set.add(4);
 
 		// Remove an element from the HashsetEx
