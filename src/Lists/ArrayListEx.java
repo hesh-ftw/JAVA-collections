@@ -5,16 +5,25 @@ import java.util.List;
 
 public class ArrayListEx {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<String>();
-        list.add("chamath");
-        list.add("heshan");
-        list.add("perera");
+        List<String> arrayList = new ArrayList<>();
 
-        System.out.println(list);
-        for (String value : list) {
-            System.out.println(value);
-        }
-        list.remove(1);
-        System.out.println(list);
+        // Add elements to the ArrayList
+        arrayList.add("A");
+        arrayList.add("C");
+        arrayList.add("D");
+
+        // Print the ArrayList before removal using forEach
+        System.out.print("ArrayList before removal: ");
+        arrayList.forEach(element -> System.out.print(element + " "));
+        System.out.println();
+
+        // Remove an element from the ArrayList
+        arrayList.remove("D");
+
+        // Print the ArrayList after removal using forEach
+        System.out.print("ArrayList after removal: ");
+        arrayList.forEach(element -> System.out.print(element + " "));
+        System.out.println();
+
     }
 }

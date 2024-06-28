@@ -6,7 +6,7 @@ public class VectorEx {
 
         public static void main(String[] args) {
 
-            Vector<String> vector = new Vector<String>();
+            Vector<String> vector = new Vector<>();
 
             System.out.println(vector.size());
 
@@ -20,7 +20,12 @@ public class VectorEx {
 
             System.out.println(vector.size());
 
-            vector.remove(0);
+            // Remove an element from the Vector
+            vector.remove((String) "Database"); // Remove element by value
+            vector.remove(0); // Remove element by index
+
+
+            System.out.println(vector);
 
             System.out.println(vector.size());
 
